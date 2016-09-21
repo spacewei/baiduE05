@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+}
+h2{
+	margin: 18px 0px;
+}
+h3{
+	margin: 16px 0px;
+}
+h5{
+	margin: 16px 0px;
+	color: gray;
+}
+article p{
+	text-indent: 2em;
+}
+body{
+	font-size: 14px;
+	font-family: "黑体";
+}
+
+.header-nav{
+	background-color: #333333;
+	height: 70px;
+	position: relative;
+}
+/*.header-nav:after{
+	content: "";
+	display: block;
+	clear:both;
+}*/
+.baidu-logo{
+	margin: auto 0 auto 20px;
+	height: 70px;
+}
+.baidu-logo a{
+	position:relative;
+	display:block;
+	height: 70px;
+}
+.baidu-logo img{
+	position: absolute;
+	top:50%;
+	margin-top: -19px;
+}
+.nav{
+	/*float: right;*/
+	display: block;
+	position: absolute;
+	top:0px;
+	right: 20px;
+	height: 70px;
+	text-align: center;
+}
+.nav ul{
+	list-style-type: disc;
+}
+.nav li{
+	float: left;
+	line-height: 70px;
+	margin-left: 20px;
+	
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+
+.con{
+	position: relative;
+	background-color: #eee;
+	padding: 20px;
+}
+/*.con:after{
+	content: "";
+	display: block;
+	clear:both;
+}*/
+.con-left{
+	/*position: relative;
+	top:20px;
+	left:20px;*/
+	/*float:left;*/
+	/*display:inline-block;*/
+	margin-right: 400px;
+	
+	/*margin-left: 20px;*/
+	/*margin-top: 20px;*/
+}
+article{
+	background-color: white;
+	padding: 10px;
+}
+article img{
+	width: 250px;
+	height: 250px;
+}
+.con2 ul{
+	text-indent: 2em;
+}
+.img-con{
+	width:180px;
+	display:inline-block;
+	text-align:center;
+	margin: 10px;
+	border-style: solid;
+}
+.img-list{
+	width: 180px;
+	height: 180px;
+}
+.con3{
+	
+}
+.con3 ol{
+	text-indent: 2em;
+	list-style-position: inside;
+}
+.table-div p{
+	text-indent: 0;
+}
+table,tr,th,td{
+	border:1px solid black;
+	border-collapse: collapse;
+	padding: 3px;
+	text-align: left;
+}
+table{
+		width: 100%;
+}
+th{
+	background-color: black;
+	color: white;
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+aside{
+	position: absolute;
+	top:20px;
+	right: 20px;
+	/*float:right;*/
+	width: 350px;
+	background-color: white;
+	padding: 20px;
+}
+/*.input-field {
+	display: block;
+	border: none;
+}*/
+fieldset{
+	display: block;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.input-div{
+	display: inline-block;
+}
+.label-left{
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: right;
+	margin-right: 20px;
+}
+aside p{
+	color: gray;
+	font-size: 13px;
+}
+.btn-submit{
+	width: 100%;
+	background-color: blue;
+	color: white;
+	border-radius:8px;
+	border:none;
+	height: 40px;
+	margin-top: 10px;
+}
